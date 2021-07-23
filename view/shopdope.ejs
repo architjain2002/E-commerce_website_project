@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopdope project</title>
+    <link rel="stylesheet" href="shopdope.css">
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <div id="container1" style="line-height: 1px;" >
+        <p style="padding-left: 70px;font-size: 33px;padding-top: 17px;">
+        shopdope
+        </p>
+        <p style="color: white;
+            padding-left: 70px;
+            font-size: 18px;">
+        आपका ही बाजार 
+        </p>
+        <input id="search-bar" type="text" placeholder="search for products brands and more (Happy Shopping ^_^)" 
+            style= "position: relative;
+            left: 257px;
+            bottom: 56px;
+            width: 1000px;
+            height: 45px;
+            border-radius: 7px;">
+        <button id="search_button">
+            <img src="outline_search_white_24dp.png">
+        </button>
+        <button id="cart_button">
+            <img src="outline_shopping_cart_white_24dp.png">
+            <span style="color: white; font-size: 13px;">Cart</span>
+        </button>
+        <button id="account_button">
+            <img src="outline_account_circle_white_24dp.png">
+            <span style="color: white; font-size: 13px;">Sign in</span>
+        </button>
+    </div>
+    <div id="back"></div>
+    <img src="top offers.png" id="top-offers">
+    <img src="grocery.png" id="grocery">
+    <img src="mobile.png" id="mobile">
+    <img src="fashion.png" id="fashion">
+    <img src="electronics.png" id="electronics">
+    <img src="home.png" id="home">
+    <img src="appliances.png" id="appliances">
+    <img src="travel.png" id="travel">
+    <img src="beauty.png" id="beauty">
+    <div id="category">
+        <ul >
+            <li id="cat1" ><a href="#0">Top Offers</a></li>
+            <li id="cat2"><a href="#0">Grocery</a></li>
+            <li id="cat3"><a href="/mobiles">Mobiles</a></li>
+            <li id="cat4"><a id="arrow1" href="#0" onmouseover="hoverin1()" onmouseout="hoverout1()" >Fashion &#8593;</a>
+                <ul>
+                    <li><a href="#0">Men's Top wear</a></li>
+                    <li><a href="#0">Men's Bottom wear</a></li>
+                    <li><a href="#0">Women Ethnic</a></li>
+                    <li><a href="#0">Women Western</a></li>
+                    <li><a href="#0">Men Footwear</a></li>
+                    <li><a href="#0">Women Footwear</a></li>
+                    <li><a href="#0">Watches and Accessories</a></li>
+                    <li><a href="#0">Bags and Luggages</a></li>
+                    <li><a href="#0">Kids</a></li>
+                </ul>
+            </li>
+            <li id="cat5"><a id="arrow2" href="#0" onmouseover="hoverin2()" onmouseout="hoverout2()" >Electronics &#8593;</a>
+                <ul>
+                    <li><a href="#0">Audio</a></li>
+                    <li><a href="#0">Camera's</a></li>
+                    <li><a href="#0">Gaming</a></li>
+                    <li><a href="#0">Laptop Accessories</a></li>
+                    <li><a href="#0">Powerbank</a></li>
+                    <li><a href="#0">Storage</a></li>
+                    <li><a href="#0">Tablets</a></li>
+                </ul>
+            </li>
+            <li id="cat6"><a id="arrow3" href="#0" onmouseover="hoverin3()" onmouseout="hoverout3()">Home &#8593;</a>
+                <ul>
+                    <li><a href="#0">Home furnishings</a></li>
+                    <li><a href="#0">Living Room</a></li>
+                    <li><a href="#0">Kitchen and dining</a></li>
+                    <li><a href="#0">Bedroom</a></li>
+                    <li><a href="#0">Home Decor</a></li>
+                    <li><a href="#0">Tools and Utility</a></li>
+                    <li><a href="#0">Cleaning and Bath</a></li>
+                    <li><a href="#0">Kids Furniture</a></li>
+                </ul>
+            </li>
+            <li id="cat7"><a id="arrow4" href="#0" onmouseover="hoverin4()" onmouseout="hoverout4()">Appliances &#8593;</a>
+                <ul>
+                    <li><a href="#0">Televisions</a></li>
+                    <li><a href="#0">Washing Machines</a></li>
+                    <li><a href="#0">Air conditioners</a></li>
+                    <li><a href="#0">Refrigerators</a></li>
+                    <li><a href="#0">Kitchen Appliances</a></li>
+                    <li><a href="#0">Home Appliances</a></li>
+                </ul>
+            </li>
+            <li id="cat8"><a href="#0">Travel</a></li>
+            <li id="cat9">
+                <a id="arrow5" href="#0" onmouseover="hoverin5()" onmouseout="hoverout5()">Beauty Toys and more &#8593;</a>
+                    <ul>
+                        <li><a href="#0">Beauty items</a></li>
+                        <li><a href="#0">Toys and games</a></li>
+                        <li><a href="#0">Miscellaneous</a></li>
+                    </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="dsf.jpg"  class="adds">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="mi-adver.jpg"  class="adds">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="med_adver.webp"  class="adds">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="samsung_adver.webp"  class="adds">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+    
+        <div style="text-align:center; position: relative; top: -48px;">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>  
+        </div>
+        <div class="offers">
+        <div class="offerbackground"></div>
+        <p id="offers_para1">Offers To Grab</p>
+        <hr class="offerhr">
+        <img src="offer_1.jpeg" id="of1">
+        <img src="offer_2.jpeg" id="of2">
+        <img src="offer_3.jpeg" id="of3">
+        <img src="offer_4.jpeg" id="of4">
+        <img src="offer_5.jpg" id="of5">
+        <img src="offer_6.jpeg" id="of6">
+    </div>
+    <!-- <script src="shopdopenode.js"></script> -->
+    <script src="slideshow.js"></script>
+    <script src="shopdope1.js"></script>
+    
+</body>
+</html>
