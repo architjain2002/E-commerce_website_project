@@ -4,7 +4,7 @@
   "description": "package intalled for my web developemnt project",
   "main": "shopdope1.js",
   "engine": {
-  "node": "14.x"
+  "node": "14.x",
   "npm": "6.x"
   },
 
