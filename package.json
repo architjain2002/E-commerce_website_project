@@ -4,8 +4,8 @@
   "description": "package intalled for my web developemnt project",
   "main": "shopdope1.js",
   "engine": {
-  "node": "12.16.2",
-  "npm": "6.13.4"
+  "node": "14.x"
+  "npm": "6.x"
   },
 
   "dependencies": {
